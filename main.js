@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const storedPassword = localStorage.getItem('password');
 
         if (username === storedUsername && password === storedPassword) {
-          location.href='https://big-loser.site'
+          location.href='https://imgs.search.brave.com/ApHHEkcmaa3-2LR3os2C5v3zW8nWoqdZEUW0Qar7doI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS41MzE3/NTYwMjYxLjM4ODMv/YmcsZjhmOGY4LWZs/YXQsNzUweCwwNzUs/Zi1wYWQsNzUweDEw/MDAsZjhmOGY4Lmpw/Zw'
             alert('Login bem-sucedido!');
         } else {
             alert('Usuário ou senha incorretos.');
